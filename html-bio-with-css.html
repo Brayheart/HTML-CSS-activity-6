@@ -4,7 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <title>CSS Stylesheets with Relative Paths</title>
-  <link rel="stylesheet"  href="css/style.css">
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 
 <body>
@@ -20,7 +24,8 @@
 
       <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
 
-      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+      <p>Write a short paragraph or two about yourself, or use placeholder text from <a
+          href="http://www.lipsum.com/">www.lipsum.com</a></p>
     </section>
 
     <section id="contact-info">
@@ -31,7 +36,6 @@
         <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
       </ul>
     </section>
-
   </div>
 
 </body>

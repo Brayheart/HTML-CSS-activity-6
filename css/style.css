@@ -4,6 +4,8 @@
         background-color: #efeee7;
         font-family: Georgia,"Times New Roman",Times,serif;
         color: #333333;
+        font-size: 18px;
+        line-height: 150%;
       }
 
       header{
@@ -13,10 +15,18 @@
       h1{
         color: #eee;
         font-size: 28px;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 20px 0;
       }
 
       h2{
         font-size: 24px;
+      }
+      
+      a{
+        color: red;
       }
 
       .container{
@@ -40,4 +50,5 @@
       
       #bio-image{
         width: 200px;
+        margin-right: 20px;
       } 
